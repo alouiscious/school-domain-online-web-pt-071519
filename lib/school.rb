@@ -34,10 +34,6 @@ class School
   # binding.pry    
        @students_alpha = [grade] << students_alpha.sort!
       end
-      # @students_alpha = @students_alpha.to_a.sort!
-      
-      # @roster.each do |grade, new_array|
-      #   @roster[grade] = new_array.sort
-      # end
+
   end
 end
